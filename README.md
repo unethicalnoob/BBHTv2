@@ -5,8 +5,6 @@ Bug Bounty Hunting Tools is a script to install the most popular tools
 
 ## Table of Contents 
 
-> If your `README` has a lot of info, section headers might be nice.
-
 - [Installation](#installation)
 - [Features](#features)
 - [Contributing](#contributing)
@@ -36,17 +34,11 @@ Bug Bounty Hunting Tools is a script to install the most popular tools
 * Wordlists - commonspeak2,payloadallthings,seclists...
 * Script for aliases/shell functions: [https://github.com/unethicalnoob/aliases](https://github.com/unethicalnoob/aliases)
 
-you can modify it as you like.
+
 ---
 
 ## Installation
 
-- All the `code` required to get started
-
-### Setup
-
-
-> git clone and run it
 
 ``` 
  git clone https://github.com/unethicalnoob/BBHTv2 
@@ -55,7 +47,6 @@ you can modify it as you like.
  ./bbhtv2.1.sh
  ```
 
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
 
 ---
 
