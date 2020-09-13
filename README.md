@@ -6,7 +6,7 @@ Bug Bounty Hunting Tools is a script to install the most popular tools
 ## Table of Contents 
 
 - [Installation](#installation)
-- [Categorized the list of tools](#list of tools)
+- [Categorized the list of tools](#Categorized the list of tools)
 
 
 
