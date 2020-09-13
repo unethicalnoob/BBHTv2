@@ -10,7 +10,6 @@ Bug Bounty Hunting Tools is a script to install the most popular tools
 
 
 
----
 
 
 ## Categorized the list of tools
