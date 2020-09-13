@@ -13,7 +13,7 @@ Bug Bounty Hunting Tools is a script to install the most popular tools
 ---
 
 
-### Categorized the list of tools
+## Categorized the list of tools
 
 * Subdomain Enum tools - amass,subfinder,assetfinder,subdomainizer,sublister,findomain....
 * Subdomain Takeover - subover,autosubtakeover,tko-subs,subjack....
@@ -44,6 +44,6 @@ Bug Bounty Hunting Tools is a script to install the most popular tools
  ```
 
 
----
+
 
 
