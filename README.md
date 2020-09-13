@@ -3,7 +3,7 @@ A single script for all the  tools you need for bug bounty. Thanks to the origin
 
 Bug Bounty Hunting Tools is a script to install the most popular tools
 
-# Added a new version | Categorized the list of tools
+### Added a new version | Categorized the list of tools
 Subdomain Enum tools - amass,subfinder,assetfinder,subdomainizer,sublister,findomain....
 
 Subdomain Takeover - subover,autosubtakeover,tko-subs,subjack....
@@ -35,8 +35,10 @@ Script for aliases/shell functions: [https://github.com/unethicalnoob/aliases](h
 
 you can modify it as you like.
 
-# Installation
-- git clone https://github.com/unethicalnoob/BBHTv2 
-- cd BBHTv2
-- chmod +x bbhtv2.1.sh
-- ./bbhtv2.1.sh
+### Installation
+```
+ git clone https://github.com/unethicalnoob/BBHTv2 
+ cd BBHTv2
+ chmod +x bbhtv2.1.sh
+ ./bbhtv2.1.sh
+ ```
