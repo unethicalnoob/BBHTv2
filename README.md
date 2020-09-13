@@ -74,7 +74,8 @@ $ brew install fvcproductions
 
 > now install npm and bower packages
 
-``` git clone https://github.com/unethicalnoob/BBHTv2 
+``` 
+ git clone https://github.com/unethicalnoob/BBHTv2 
  cd BBHTv2
  chmod +x bbhtv2.1.sh
  ./bbhtv2.1.sh
