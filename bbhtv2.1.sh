@@ -5,7 +5,7 @@ GREEN=$(tput setaf 2)
 BLUE=$(tput setaf 4)
 RESET=$(tput sgr0)
 
-AMASS_VERSION=3.8.2
+AMASS_VERSION=3.10.4
 
 
 echo "${RED} ######################################################### ${RESET}"
@@ -449,7 +449,7 @@ echo "${GREEN} [+] Fingerprinting & CVE tools ${RESET}"
 {
 sudo pip3 install webtech
 go get -u github.com/projectdiscovery/chaos-client/cmd/chaos
-go get -u github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+go get -u github.com/projectdiscovery/nuclei/cmd/nuclei
 git clone https://github.com/projectdiscovery/nuclei-templates ~/tools/nuclei-templates
 go get -u github.com/tomnomnom/gf
 
