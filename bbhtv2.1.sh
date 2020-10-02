@@ -5,8 +5,6 @@ GREEN=$(tput setaf 2)
 BLUE=$(tput setaf 4)
 RESET=$(tput sgr0)
 
-AMASS_VERSION=3.10.4
-
 
 echo "${RED} ######################################################### ${RESET}"
 echo "${RED} #                 TOOLS FOR BUG BOUNTY                  # ${RESET}"
@@ -38,7 +36,7 @@ sudo echo debconf apt-fast/aptmanager string apt-get | sudo debconf-set-selectio
 sudo apt install -y apt-fast
 
 sudo apt-fast install -y apt-transport-https
-sudo apt-fast install -y libcurl4-openssl-dev
+sudo apt-fast install -y libcurl4-ssl-dev
 sudo apt-fast install -y libssl-dev
 sudo apt-fast install -y jq
 sudo apt-fast install -y ruby-full
@@ -161,8 +159,7 @@ sudo mv findomain-linux /usr/bin/findomain
 findomain
 
 amass(){
-cd ~ && echo -e "Downloading amass version ${AMASS_VERSION}" && wget -q https://github.com/OWASP/Amass/releases/download/v${AMASS_VERSION}/amass_linux_amd64.zip && unzip amass_linux_amd64.zip && sudo mv amass_linux_amd64/amass /usr/bin/
-cd ~ && rm -rf amass_linux_amd64* amass_linux_amd64.zip*
+go get -u -v github.com/OWASP/Amass/...
 }
 amass
 
@@ -521,6 +518,14 @@ go get -u github.com/tomnomnom/qsreplace
 } > /dev/null 2>&1
 echo "${BLUE} Done ${RESET}"
 echo ""
+
+echo "${GREEN} [+] Installing Miscellaneous tools ${RESET}"
+{
+git clone https://github.com/ozguralp/gmapsapiscanner/
+} > /dev/null 2>&1
+echo "${BLUE} Done ${RESET}"
+echo ""
+
 
 
 echo "${RED} use the command 'source ~/.bash_profile' for the shell functions to work ${RESET}"
