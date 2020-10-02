@@ -535,6 +535,10 @@ go get -u github.com/tomnomnom/qsreplace
 echo "${BLUE} Done ${RESET}"
 echo ""
 
+echo "${GREEN} [+] Installing Miscellaneous tools ${RESET}"
+{
+git clone https://github.com/lijiejie/ds_store_exp/ ~/tools/ds_store_exp
+} > /dev/null 2>&1
 
 echo "${RED} use the command 'source ~/.bash_profile' for the shell functions to work ${RESET}"
 echo ""
