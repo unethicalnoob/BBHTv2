@@ -6,6 +6,9 @@ BLUE=$(tput setaf 4)
 RESET=$(tput sgr0)
 
 
+AMASS_VERSION=3.10.4
+
+
 echo "${RED} ######################################################### ${RESET}"
 echo "${RED} #                 TOOLS FOR BUG BOUNTY                  # ${RESET}"
 echo "${RED} ######################################################### ${RESET}"
@@ -531,15 +534,6 @@ go get -u github.com/tomnomnom/qsreplace
 } > /dev/null 2>&1
 echo "${BLUE} Done ${RESET}"
 echo ""
-
-echo "${GREEN} [+] Installing Miscellaneous tools ${RESET}"
-{
-git clone https://github.com/ozguralp/gmapsapiscanner/
-git clone https://github.com/lijiejie/ds_store_exp/
-} > /dev/null 2>&1
-echo "${BLUE} Done ${RESET}"
-echo ""
-
 
 
 echo "${RED} use the command 'source ~/.bash_profile' for the shell functions to work ${RESET}"
